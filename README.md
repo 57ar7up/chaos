@@ -9,8 +9,6 @@
 ChaosBot is a social coding experiment to see what happens when the absolute
 direction of a software project is turned over to the open source community.
 
-![Image of a kitten with overlay: "I WONDER IF BEING SANE MEANS DISREGARDING THE CHAOS THAT IS LIFE...PRETENDING ONLY AN INFINITESIMAL SEGMENT OF IT IS REALITY" Source: http://existentialpets.tumblr.com/post/48069725344](data/imgs/chaos-kitty.jpg)
-
 ## How it works
 
 1. Fork the code and make any changes you wish. (see [Development](#development))
@@ -80,22 +78,6 @@ Chaosbot has been ruled by:
 - Democracy, as the anarchy commit crashed the server and was reverted
 - @PlasmaPower with [#138](https://github.com/chaosbot/chaos/pull/138)
 - Democracy, as PlasmaPower relinquished his control with [#153](https://github.com/chaosbot/chaos/pull/153)
-
-## Server details
-
-* **ChaosBot runs with Python 3.6.1 on Ubuntu 14.04 Trusty.**
-* **Its process is managed under [supervisor](http://supervisord.org/).**  Avoid
-writing your own process-management tooling unless it is going to replace
-supervisor completely.
-* **It has root access on its server.**  This means you are able to install
-packages and perform other privileged operations, provided you can initiate those
-changes through a pull request.
-* **Its domain name is [chaosthebot.com](http://chaosthebot.com)**.
-* **It's hosted on a low-tier machine in the cloud.**  This means there aren't a
-ton of resources available to it: 2TB network transfer, 30GB storage, 2GB memory,
-and 1 CPU core.  Try not to deliberately DoS it.
-* **MySQL is installed locally.**
-
 
 ## FAQ
 
